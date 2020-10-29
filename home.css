@@ -1,0 +1,79 @@
+body> div.content > aside {
+	padding-right: 2em;
+	float: right;
+	border-right: 4px double purple;
+}
+
+body> div.content > aside > ul >li{
+	list-style: none;
+	text-align: right;
+	line-height: 30px;
+}
+
+aside > ul > li > a{
+	text-decoration: none;
+}
+body> div.content > aside > ul >li >a:hover{
+	color: rgb(255, 0, 136);
+}
+
+
+body> div.content > aside > ul >li >a:visited{
+	color: rgb(255, 0, 136);
+}
+
+h3{
+	text-align: right;
+	color: purple;
+	margin-left: 10em;
+}
+
+h2{
+	color: purple;
+}
+
+ul.me{
+	padding-bottom: 3em;
+}
+
+ul.me > li{
+	list-style: none;
+	line-height: 50px;
+}
+
+div.rightSide{
+	padding-bottom: 5em;
+}
+
+ul.me > li:nth-of-type(1){
+	/* pronouns */
+	list-style-image: url("crown.png");
+}
+
+
+ul.me > li:nth-of-type(2){
+	/* age */
+	list-style-image: url("celebration.png");
+}
+
+
+ul.me > li:nth-of-type(3){
+	/* city */
+	list-style-image: url("location.png");
+}
+
+
+ul.me > li:nth-of-type(4){
+	/* school */
+	list-style-image: url("school1.png");
+}
+
+
+ul.me > li:nth-of-type(5){
+	/* major */
+	list-style-image: url("coding.png");
+}
+
+ul.related > li > a:hover{
+	background-color: plum;
+}

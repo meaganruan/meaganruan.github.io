@@ -1,0 +1,70 @@
+
+h2{
+	color: darkOrange;
+	padding-top: 2em;
+	text-align: center;
+}
+
+div#sdfig{
+	display: block;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+div#trtfig{
+	display: block;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+footer{
+	margin-top: 5em;
+}
+
+legend{
+	color: purple;
+}
+
+fieldset{
+	line-height: 3em;
+}
+
+fieldset#cards > label{
+	padding: auto;
+}
+
+fieldset.paypal{
+	width: 40%;
+}
+
+input.submit{
+	color: purple;
+	background-color: plum;
+	font-size: 20px;
+	line-height: 2em;
+	border-radius: 1.5em;
+	margin: 2em;
+}
+
+input.submit:hover{
+	background-color: darkOrange;
+}
+
+h2#verification{
+	text-align: center;
+	padding-bottom: 3em;
+	border-bottom: 3px double purple;
+}
+
+div#verifpage > img {
+	width: 50%;
+	padding-left: 17em;
+	margin-bottom: 10em;
+}
+
+
+input:invalid {
+  background-color: salmon;
+}

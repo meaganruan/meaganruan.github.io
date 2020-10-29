@@ -1,0 +1,27 @@
+body{
+	color: purple;
+}
+
+body > article > ol > li{
+	color: rgb(255, 198, 132);
+}
+
+img#valorant{
+	float: right;
+	display: block;
+	margin-left: 2em;
+	margin-top: 2.5em;
+	border: 1px solid purple;
+	max-width: 75%;
+    max-height: 75%;
+    padding: 0.5em;
+    box-shadow: -10px 5px 5px plum;
+}
+
+ol > li{
+	color: darkOrange;
+}
+
+p#last{
+	padding-bottom: 5em;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ice Creamery</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="ic.css" rel="stylesheet"/>
+<script>
+   window.addEventListener("load", function() {
+    var data = location.search.slice(1);
+    data = decodeURIComponent(data);
+    data = data.split(/[&=]/g);
+
+    if (data.length > 2) 
+        document.getElementById("loginsect").innerHTML = "Welcome " + data[1] + "!";
+});
+</script>
+
+</head>
+
+<body>
+<header>
+	<section id="loginsect">
+         <form id="login">
+            <label for="username">Member Name</label>
+            <input id="username" name="user" type="text" />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="pwd" />
+            <input type="submit" value="Login">
+         </form>
+      </section>
+	<img src="header.png" alt="collage"/>
+	<nav class="menu">
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="QuarantineLifestyle.html">Quarantine Lifestyle</a></li>
+			<li><a href="School.html">School</a></li>
+			<li><a href="EandB.html">Emack and Bolio's</a></li>
+			<li><a href="ICreamery.html">Ice Creamery</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="content">
+
+<article>
+	<p>
+		You can buy Emack and Bolio's daily flavors in pints or quarts. Everyday, there will be two flavors on the menu and you can pick one or the other, or both!
+	</p>
+</article>
+
+<h2>Today's Flavors</h2>
+
+<div id="sdfig">
+<figure class="icecream">
+	<img src="stoneysdream.jpg" width="60%" alt="Stoney's Dream"/>
+	<figcaption><u>Stoney's Dream</u>
+	<p>
+	Vanilla ice cream with cookie dough and fudge swirl.
+	</p>
+	</figcaption>
+</figure>
+
+</div>
+<div id="trtfig">
+
+<figure class="icecream">
+	<img src="tripleraspberrytruffle.jpg" width="60%" alt="Triple Raspberry Truffle"/>
+	<figcaption><u>Triple Raspberry Truffle</u>
+	<p>
+	Vanilla ice cream with raspberry swirl and raspberry filled truffles.
+	</p>
+	</figcaption>
+</figure>
+
+</div>
+
+<form id="addtocart" action="payment.html" method="get">
+	<fieldset>
+		<legend>Step 1: Flavor</legend>
+		<label for="flavor">Which icecream flavor(s) do you want and what size?</label>
+		</br> 
+			<label><input type="checkbox" id="sd-p" name="flavor" value="Stoney's Dream"/> Stoney's Dream in a <em>Pint</em> (14 oz)</label>
+
+		<label for="SDQpuantity">Qty</label>
+         <select name="quantity" id="SDpQuantity">	
+         	<option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+         </select>  
+         </br>
+			<label><input type="checkbox" id="sd-q" name="flavor" value="Stoney's Dream"/> Stoney's Dream in a <em>Quart</em> (24 oz)</label>
+
+
+		<label for="SDQquantity">Qty</label>
+         <select name="quantity" id="SDqQuantity">	
+         	<option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+         </select> 
+
+         </br>
+
+	        <label><input type="checkbox" id="trt-p" name="flavor" value="Triple Raspberry Truffle" /> Triple Raspberry Truffle in a <em>Pint</em> (14 oz)</label>
+	        <label for="TRTpQuantity">Qty</label>
+         <select name="quantity" id="TRTpQuantity">	
+         	<option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+         </select>  
+
+         </br>
+	        <label><input type="checkbox" id="trt-q" name="flavor" value="Triple Raspberry Truffle" /> Triple Raspberry Truffle in a <em>Quart</em> (24 oz)</label>
+
+	        <label for="TRTqQuantity">Qty</label>
+         <select name="quantity" id="TRTqQuantity">	
+         	<option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+         </select>  
+	</fieldset>
+
+
+	<fieldset>
+		<legend>Step 2: Pickup</legend>
+		<label for="pickup">Who and when will be picking up this order?</label>
+
+		</br> 
+		<label for="name">Enter Name: </label>
+		<input type="text" id="name" required/>
+
+		</br>
+		<label for="time">Enter Date and Time: </label>
+		<input type="datetime-local" id="time" required/>
+		(Note: Store Hours are from 12 PM - 10 PM)
+	</fieldset>
+
+	<fieldset>
+		<legend>Step 3: Payment</legend>
+	<label for="cart">Please review your order then add to cart!</label>
+	</br>
+	<input class="submit" type="submit" id="cart" value="Add to Cart">
+
+	</fieldset>
+
+	 
+
+
+</form>
+
+
+
+
+
+</div>
+
+<footer>
+		<a href="mailto:meaganruan1214@gmail.com">meaganruan1214@gmail.com</a>
+		<a href="https://www.instagram.com/meaganlita/">Instagram</a>
+		<a href="https://www.facebook.com/meagan.lita/">Facebook</a>
+		<a href="https://www.linkedin.com/in/meagan-ruan-a40420191/">LinkedIn</a>
+
+</footer>
+
+
+</body>
+
+
+</html>

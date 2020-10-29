@@ -1,0 +1,88 @@
+html{
+
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+
+/* fix body */
+
+body{
+	margin: 0.5em 8em 3em 8em;
+	font-family: Courier New, Courier, Monospace;
+	border: 5px outset plum;
+	background-color: rgb(251, 251, 255);
+	box-shadow: 10px 5px 5px gray;
+}
+
+body > div.content{
+	padding-top: 5em;
+	padding-right: 5em;
+	padding-left: 5em;
+}
+
+
+body > header > img{
+	float: left;
+	width: 100%;
+}
+
+/* navigation menu */
+
+nav ul li:hover {
+  background-color: purple;
+}
+
+nav .menu{
+	width: 100%;
+}
+
+nav> ul > li{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 23%;
+	background-color: rgb(192, 99, 192);
+    line-height: 3em;
+	border: 1px solid rgb(192, 99, 192);
+	list-style: none;
+	margin: auto;
+	margin-bottom: 3em;
+}
+
+nav > ul > li > a{
+	color: rgb(255, 198, 132);
+	text-decoration: none;
+	display: block;
+}
+a{
+	color: darkOrange;
+}
+
+a:hover {
+	color: plum;
+}
+
+
+/* words */
+ p{
+	line-height: 25px;
+}
+
+em{
+	color: rgb(255, 0, 136);
+	text-shadow: 2px 2px 5px red;
+}
+
+/* footer */
+footer{
+	text-align: center;
+	display: block;
+	background-color: rgb(255, 198, 132);
+	padding: 1em;
+}
+
+footer > a{
+	padding: 3em;
+	color: (192, 99, 192);
+}

@@ -1,0 +1,38 @@
+/*table styles */
+div#calendar{
+	padding-top: 3em;
+}
+
+table#calendar_table{
+	color: purple;
+	margin: auto;
+}
+
+th.weekdays{
+	background-color: plum;
+}
+
+td#today{
+	background-color: pink;
+}
+
+th, td{
+	text-align: center;
+	border: 1px solid purple;
+	padding: 5px;
+}
+
+h2{
+	color: purple;
+}
+
+em{
+	/*color: purple;*/
+	color: white;
+}
+
+
+div.pics{
+	margin-top: 2em;
+	margin-left: 50em;
+}

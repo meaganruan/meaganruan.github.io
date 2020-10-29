@@ -1,0 +1,35 @@
+/* Emack and Bolio's style sheet */
+
+
+/* fix image size */
+div.pics{
+	margin-left: 50em;
+}
+
+
+img.atwork{
+	margin: 2em;
+	border: 1px solid purple;
+	max-width: 25%;
+    max-height: 25%;
+    float: left;
+    display: block;
+    padding: 0.5em;
+    box-shadow: 10px 5px 5px plum;
+}
+
+/* format article */
+
+article > p{
+	line-height: 25px;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+p:first-of-type{
+	padding-top: 15em;
+}
+
+b > em{
+	color: purple;
+}
