@@ -1,0 +1,118 @@
+html{
+    background-color: #faf4f2;
+    color: #5e5654;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust:100%;
+    
+}
+body{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
+
+h1{
+    font-family: 'League Script', cursive;
+    letter-spacing: .175rem;
+    padding-left: 3em;
+}
+
+h4{
+    display: inline;
+    vertical-align: top;
+}
+p{
+    display: inline;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.content{
+    margin-top: 6em;
+    font-size: 15px;
+}
+
+#quote{
+    text-align: right;
+}
+
+.classes{
+    font-family: inherit;
+    text-align: none;
+    font-size: 20px;
+}
+
+.whoami{
+    font-family: inherit;
+}
+
+nav{
+    font-size: 16px;
+}
+
+a {
+    color: #5e5654;
+    text-decoration:none
+}
+
+a:hover {
+    color: #c7aca3;
+    text-decoration:none
+}
+
+ul
+{
+    font-family: 'Rampart One', cursive;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+.dropdown-content li{
+    padding: 0em;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+
+.drop-1{
+    margin-top: 0.5em;
+}
+
+ul li
+{
+    position: relative;
+    display:inline-block;
+    padding: 1em;
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li a 
+{
+    display: block;
+    text-decoration: none;
+}
+
+li:hover ul 
+{
+    padding:0;
+    display: block;
+    position: absolute;
+}
+
+li:hover li
+{   
+    float: none;
+}
