@@ -10,7 +10,6 @@ body {
   margin-bottom: 5em;
   font-family: "Advent Pro", sans-serif;
   font-size: 15px;
-  line-height: 1.6em;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -22,21 +21,19 @@ h1 {
   padding-left: 3em;
 }
 
-h4 {
-  display: inline;
-  vertical-align: top;
-}
-p {
+/* header / navbar css */
+
+header p {
   display: inline;
   vertical-align: top;
   font-size: 18px;
 }
 
-/* header / navbar css */
 nav {
   font-size: 16px;
   display: flexbox;
   justify-content: flex-start;
+  line-height: 1.6em;
 }
 
 a {
@@ -114,12 +111,38 @@ header {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-content {
-  padding-top: 1em;
+.card-content img {
   text-align: center;
 }
 
-.card-content ul li {
-  display: block;
+.card-content {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content ul li {
+  text-align: left;
+}
+
+/* about section */
+.about-section {
+  display: flex;
+  justify-content: row;
+  align-items: flex-start;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.about-section div {
+  padding: 2em;
+}
+
+.about-content {
+  line-height: 30px;
+}
+
+.portfolio-section {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
