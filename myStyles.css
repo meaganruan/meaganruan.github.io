@@ -61,7 +61,7 @@ nav ul {
 }
 
 .dropdown-content li a {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .drop-1 {
@@ -111,18 +111,25 @@ header {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-content img {
+.card img {
   text-align: center;
 }
 
-.card-content {
+.card {
   text-align: left;
   display: flex;
   flex-direction: column;
 }
+/* 
+.card-content ul {
+  list-style-image: url("pics/star-icon.png");
+} */
 
-.card-content ul li {
+.card ul li {
   text-align: left;
+  list-style-image: url("pics/star-icon.png");
+  margin: 0;
+  vertical-align: middle;
 }
 
 /* about section */
@@ -140,8 +147,22 @@ header {
 
 .about-content {
   line-height: 30px;
+  letter-spacing: 1.5px;
 }
 
+#linkedin {
+  list-style-image: url("pics/linkedin.png");
+}
+
+#github {
+  list-style-image: url("pics/github.png");
+}
+
+#email {
+  list-style-image: url("pics/email.png");
+}
+
+/* portfolio section */
 .portfolio-section {
   padding-top: 2em;
   padding-bottom: 2em;
