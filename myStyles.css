@@ -185,6 +185,12 @@ header {
   padding-bottom: 2em;
 }
 
+.sub-container {
+  line-height: 25px;
+  font-size: 16px;
+  letter-spacing: 0.15rem;
+}
+
 /* footer css */
 footer {
   padding-top: 2em;
