@@ -18,7 +18,8 @@ body {
 h1 {
   font-family: "League Script", cursive;
   letter-spacing: 0.175rem;
-  padding-left: 3em;
+  padding-left: 2em;
+  padding-right: 0;
 }
 
 /* header / navbar css */
@@ -31,9 +32,29 @@ header p {
 
 nav {
   font-size: 16px;
-  display: flexbox;
+  display: flex;
   justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
   line-height: 1.6em;
+}
+
+/* .nav-left {
+  border: pink 3px solid;
+}
+.nav-right {
+  border: red 3px solid;
+} */
+
+.nav-left li {
+  display: inline;
+  font-size: 20px;
+  text-align: left;
+}
+
+.nav-right li {
+  display: inline;
 }
 
 a {
@@ -46,51 +67,44 @@ a:hover {
   text-decoration: none;
 }
 
-nav ul {
+.nav-right {
   font-family: "Rampart One", cursive;
   margin: 0;
   padding: 0;
   list-style: none;
   position: relative;
-  text-align: center;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 .dropdown-content li {
-  padding: 0em;
+  padding: 0ex;
+  margin: 0px;
   display: block;
-  text-align: left;
+  padding-left: 1em;
+  /* border: pink 2px solid; */
 }
 
 .dropdown-content li a {
   font-size: 14px;
 }
-
-.drop-1 {
-  margin-top: 0.5em;
-}
-
-nav ul li {
+.not-drop {
   position: relative;
-  display: inline-block;
   padding: 1em;
 }
 
-nav li ul {
+.nav-right li ul {
   display: none;
 }
 
-nav ul li a {
-  display: block;
-  text-decoration: none;
-}
-
-nav li:hover ul {
+.nav-right li:hover ul {
   padding: 0;
   display: block;
   position: absolute;
-}
-
-nav li:hover li {
-  float: none;
 }
 
 header {
@@ -164,6 +178,12 @@ header {
 
 /* portfolio section */
 .portfolio-section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* footer css */
+footer {
   padding-top: 2em;
   padding-bottom: 2em;
 }
