@@ -180,7 +180,7 @@ header {
 }
 
 /* portfolio section */
-.portfolio-section {
+#portfolio-section {
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -189,6 +189,55 @@ header {
   line-height: 25px;
   font-size: 16px;
   letter-spacing: 0.15rem;
+}
+
+/* art portfolio section */
+#art-portfolio {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+img#starfish {
+  max-width: 65%;
+  border-radius: 50px;
+}
+#art-portfolio .images {
+  max-width: 40%;
+  border-radius: 40px;
+}
+
+.sub-sections {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+#self-portrait-text {
+  padding-right: 1.5em;
+}
+.triangles {
+  max-width: 50%;
+}
+#health-text {
+  padding-bottom: 2em;
+}
+.physical-triangle,
+.mental-triangle,
+.social-triangle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#health-triangle {
+  width: 100%;
+}
+/* coding portfolio section */
+#coding-portfolio {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 /* footer css */
