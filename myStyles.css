@@ -239,6 +239,23 @@ img#starfish {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+.mockup-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+}
+.homepage {
+  width: 80%;
+  border: dotted 2px pink;
+  padding: 1em;
+}
+.popups {
+  width: 30%;
+  border: dotted 2px pink;
+  padding: 1em;
+}
 
 /* footer css */
 footer {
