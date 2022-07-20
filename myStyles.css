@@ -135,6 +135,7 @@ header {
 
 .card img {
   text-align: center;
+  border-radius: 10px;
 }
 
 .card {
