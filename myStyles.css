@@ -1,8 +1,3 @@
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
 html {
   background-color: #faf4f2;
   color: #5e5654;
