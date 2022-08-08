@@ -89,7 +89,7 @@ a:hover {
   flex-direction: column;
   /* display: block; */
   padding-left: 1em;
-  /* border: pink 2px solid; */
+  border: pink 2px solid;
 }
 
 .dropdown-content li a {
