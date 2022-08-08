@@ -87,9 +87,9 @@ a:hover {
 .dropdown-content li {
   display: flex;
   flex-direction: column;
-  display: block;
+  /* display: block; */
   padding-left: 1em;
-  border: pink 2px solid;
+  /* border: pink 2px solid; */
 }
 
 .dropdown-content li a {
