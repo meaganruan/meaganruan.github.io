@@ -85,11 +85,11 @@ a:hover {
   align-items: baseline;
 }
 .dropdown-content li {
-  padding: 0ex;
-  margin: 0px;
+  display: flex;
+  flex-direction: column;
   display: block;
   padding-left: 1em;
-  /* border: pink 2px solid; */
+  border: pink 2px solid;
 }
 
 .dropdown-content li a {
