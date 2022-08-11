@@ -78,19 +78,18 @@ a:hover {
   position: relative;
 }
 
-.dropdown-content {
+.nav-right li:hover .dropdown-content{
+  position: absolute;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-.dropdown-content li {
-  display: none;
-  flex-direction: column;
-  /* display: block; */
-  position: relative;
+  flex-flow: column wrap;
+  left: 0;
   padding-left: 1em;
-  border: pink 2px solid;
+  /* border: pink 2px solid; */
+}
+
+.dropdown-content li{
+  display: flex;
+  flex: 1;
 }
 
 .dropdown-content li a {
