@@ -79,13 +79,23 @@ a:hover {
 }
 
 .dropdown-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: baseline;
+ // display: flex;
+//  flex-direction: column;
+ // justify-content: flex-start;
+ // align-items: baseline;
+  
+   display: block;
+  position: absolute;
+  margin-top: 5px;
+  background: #27ae60;
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px 2px;
+  box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+  
 }
 .dropdown-content li {
-  display: flex;
+  display: none;
   flex-direction: column;
   /* display: block; */
   position: relative;
