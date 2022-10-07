@@ -22,7 +22,7 @@ h1 {
 .title {
   font-family: "League Script", cursive;
   letter-spacing: 0.175rem;
-  padding: 1em;
+  padding-left: 1em;
 }
 
 /* header / navbar css */
@@ -238,10 +238,6 @@ img#starfish {
   width: 100%;
 }
 /* coding portfolio section */
-#coding-portfolio {
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
 .mockup-container {
   display: flex;
   flex-flow: row wrap;
