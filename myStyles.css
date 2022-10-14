@@ -8,7 +8,7 @@ html {
 body {
   margin-top: 3em;
   margin-bottom: 3em;
-  font-family: "Advent Pro", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +25,7 @@ p {
   line-height: 2em;
 }
 .title {
-  font-family: "League Script", cursive;
+  font-family: "Rampart One", cursive;
   letter-spacing: 0.175rem;
   padding-left: 1em;
 }
