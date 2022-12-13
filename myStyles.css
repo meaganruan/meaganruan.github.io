@@ -266,13 +266,18 @@ img#starfish {
 }
 
 /* case studies portfolio css */
-.wireframes .personas{
+.wireframes{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
 }
-
+.personas {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  padding-bottom: 3em;
+}
 
 /* footer css */
 footer {
