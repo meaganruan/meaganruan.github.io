@@ -9,7 +9,7 @@ body {
   margin-top: 3em;
   margin-bottom: 3em;
   font-family: "Karla", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -57,11 +57,12 @@ nav {
 
 .nav-left li {
   display: inline;
-  font-size: 20px;
+  font-size: 28px;
   text-align: left;
 }
 
 .nav-right li {
+  font-size: 18px;
   display: inline;
 }
 
@@ -101,7 +102,7 @@ a:hover {
 }
 
 .dropdown-content li a {
-  font-size: 14px;
+  font-size: 18px;
 }
 .not-drop {
   position: relative;
@@ -130,6 +131,8 @@ header {
   border-radius: 5px;
   padding: 1em;
   background-color: #f5e4df;
+  margin-left: 4em;
+  margin-top: 2em;
 }
 
 .card:hover {
@@ -138,6 +141,8 @@ header {
 
 .card img {
   text-align: center;
+  max-height: 20em;
+  width: auto;
 }
 
 .card {
@@ -162,7 +167,7 @@ header {
   display: flex;
   justify-content: row;
   align-items: flex-start;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 2em;
 }
 
@@ -171,7 +176,7 @@ header {
 }
 
 .about-content {
-  line-height: 30px;
+  line-height: 28px;
   letter-spacing: 1.5px;
 }
 
@@ -271,4 +276,8 @@ img#starfish {
 footer {
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.credits {
+  font-size: 14px;
 }
