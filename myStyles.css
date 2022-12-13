@@ -133,6 +133,9 @@ header {
   background-color: #f5e4df;
   margin-left: 4em;
   margin-top: 2em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -145,10 +148,8 @@ header {
   width: auto;
 }
 
-.card {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
+.card h2{
+  text-align: center;
 }
 /* 
 .card-content ul {
@@ -265,12 +266,13 @@ img#starfish {
 }
 
 /* case studies portfolio css */
-.wireframes {
+.wireframes .personas{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
 }
+
 
 /* footer css */
 footer {
