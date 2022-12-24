@@ -208,7 +208,11 @@ header {
   font-size: 16px;
   letter-spacing: 0.15rem;
 }
-
+/* coding portfolio section */
+#coding-portfolio {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 /* art portfolio section */
 #art-portfolio {
   padding-top: 2em;
@@ -276,6 +280,9 @@ img#starfish {
   justify-content: space-evenly;
   align-items: center;
 }
+.JMcard, .ROcard {
+  min-height: 300px;
+}
 .personas, .UJmaps{
   display: flex;
   flex-flow: row wrap;
@@ -283,8 +290,17 @@ img#starfish {
   padding-bottom: 3em;
 }
 
+.JMsteps, .ROsteps{
+  max-width: 45%;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
 .box{
-  max-width: 350px;
+  min-height: 40px;
+  max-width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
@@ -295,6 +311,7 @@ img#starfish {
   text-align: left;
   display: flex;
   flex-direction: column;
+  border: white solid 2px;
 }
 
 .box:hover {
