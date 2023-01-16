@@ -148,8 +148,11 @@ a:hover {
 }
 
 .card img {
-  text-align: center;
-  max-height: 16.5em;
+  display: block;
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto;
 }
 
 .card h2{
