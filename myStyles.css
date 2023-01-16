@@ -149,8 +149,10 @@ a:hover {
 
 .card img {
   display: block;
-  max-width:300px;
-  max-height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:250px;
+  max-height:250px;
   width: auto;
   height: auto;
 }
