@@ -203,13 +203,24 @@ a:hover {
 }
 
 /* getting started section */
-.case-studies{
+.projects{
   display: flex;
   flex-wrap: nowrap row;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
-.case-studies > a > h3{
+div.projects img {
+  border: dotted 5px #f5e4df;
+  border-radius: 2em;
+}
+
+.projects a{
+  max-width: 300px;
+  min-height: 200px;
+}
+
+.projects > a > h3{
   text-align: center;
 }
 
@@ -281,11 +292,11 @@ img#starfish {
   padding: 1em;
 }
 .homepage {
-  border: dotted 2px pink;
+  border: dotted 2px #f5e4df;
   padding: 1em;
 }
 .popups {
-  border: dotted 2px pink;
+  border: dotted 2px #f5e4df;
   padding: 1em;
 }
 
