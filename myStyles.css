@@ -218,9 +218,6 @@ div.projects img {
 .projects a{
   max-width: 300px;
   min-height: 200px;
-}
-
-.projects > a > h3{
   text-align: center;
 }
 
