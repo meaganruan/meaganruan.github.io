@@ -205,14 +205,15 @@ a:hover {
 /* getting started section */
 .projects{
   display: flex;
-  flex-wrap: nowrap row;
+  flex-flow: wrap row;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 div.projects img {
   border: dotted 5px #f5e4df;
   border-radius: 2em;
+  object-fit: cover;
 }
 
 .projects a{
