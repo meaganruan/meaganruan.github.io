@@ -208,6 +208,7 @@ a:hover {
   flex-flow: wrap row;
   align-items: flex-start;
   justify-content: space-evenly;
+  row-gap: 3em;
 }
 
 div.projects img {
