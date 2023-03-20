@@ -176,16 +176,17 @@ a:hover {
 /* about section */
 .about-section {
   display: flex;
-  justify-content: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 2em;
 }
 
-.about-section div, .about-content div {
+.about-section div{
   padding: 2em;
 }
 
 .about-content {
+  max-width: 50%;
   line-height: 28px;
   letter-spacing: 1.5px;
 }
